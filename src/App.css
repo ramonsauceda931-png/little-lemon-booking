@@ -1,0 +1,58 @@
+main {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 24px;
+  text-align: center;
+  background: #495e57;
+  color: white;
+  border-radius: 16px;
+}
+
+form {
+  display: grid;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+form div {
+  display: grid;
+  gap: 6px;
+  text-align: left;
+}
+
+input,
+select,
+button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+button {
+  background: #f4ce14;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ee9972;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+nav a {
+  color: #f4ce14;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
